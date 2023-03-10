@@ -14,13 +14,9 @@
     <title>Area & Perimeter of Rectangle in PHP</title>
 	</head>
 	<body>
-    <h1><?php echo 'Area & Perimeter of a Rectangle'; ?></h1>
-		<?php 
-			$length = 14;  
-		 	$width = 12; 
-			echo "<p>Length = $length cm<br>Width = $width cm</p>"; ?>		
-		<?php 
-		 echo "<p>The area of a rectangle with dimensions $length cm x $width cm = " . ($length * $width) . "cm<sup>2</sup></p>";  
-		  ?>  
+    <h1>Area & Perimeter of a Rectangle</h1>
+		<p>Length = 24 cm<br>Width = 13 cm</p>		
+		<p>The area of a rectangle with dimensions 24 cm x 13 cm = 312cm<sup>2</sup></p>  
+    <p>The perimeter of a rectangle with dimensions 24 cm + 12 cm + 24 cm + 12cm = 74cm</p>
 	</body>
-</html>
+</html>  
